@@ -1,0 +1,1271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.webp" type="image/webp" />
+
+  <!-- CSS files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dark-theme.css" rel="stylesheet">
+
+  <title>Shopingo - eCommerce HTML Template</title>
+</head>
+
+<body>
+
+  <!--page loader-->
+  <div class="loader-wrapper">
+   <div class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
+     <div class="spinner-border text-dark" role="status">
+       <span class="visually-hidden">Loading...</span>
+     </div>
+   </div>
+ </div>
+<!--end loader-->
+
+  <!--start top header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand-xl w-100 navbar-dark container gap-3">
+      <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo.webp" class="logo-img" alt=""></a>
+      <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <div class="offcanvas-logo"><img src="assets/images/logo.webp" class="logo-img" alt="">
+          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body primary-menu">
+          <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="tv-shows.html" data-bs-toggle="dropdown">
+                Categories
+              </a>
+              <div class="dropdown-menu dropdown-large-menu">
+                <div class="row">
+                  <div class="col-12 col-xl-4">
+                    <h6 class="large-menu-title">Fashion</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="javascript:;">Casual T-Shirts</a>
+                      </li>
+                      <li><a href="javascript:;">Formal Shirts</a>
+                      </li>
+                      <li><a href="javascript:;">Jackets</a>
+                      </li>
+                      <li><a href="javascript:;">Jeans</a>
+                      </li>
+                      <li><a href="javascript:;">Dresses</a>
+                      </li>
+                      <li><a href="javascript:;">Sneakers</a>
+                      </li>
+                      <li><a href="javascript:;">Belts</a>
+                      </li>
+                      <li><a href="javascript:;">Sports Shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-12 col-xl-4">
+                    <h6 class="large-menu-title">Electronics</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="javascript:;">Mobiles</a>
+                      </li>
+                      <li><a href="javascript:;">Laptops</a>
+                      </li>
+                      <li><a href="javascript:;">Macbook</a>
+                      </li>
+                      <li><a href="javascript:;">Televisions</a>
+                      </li>
+                      <li><a href="javascript:;">Lighting</a>
+                      </li>
+                      <li><a href="javascript:;">Smart Watch</a>
+                      </li>
+                      <li><a href="javascript:;">Galaxy Phones</a>
+                      </li>
+                      <li><a href="javascript:;">PC Monitors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-12 col-xl-4 d-none d-xl-block">
+                    <div class="pramotion-banner1">
+                      <img src="assets/images/menu-img.webp" class="img-fluid" alt=""/>
+                    </div>
+                  </div>
+                  <!-- end col-3 -->
+                </div>
+                <!-- end row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                <li><a class="dropdown-item" href="product-details.html">Product Details</a></li>
+                <li><a class="dropdown-item" href="payment-method.html">Payment Method</a></li>
+                <li><a class="dropdown-item" href="billing-details.html">Billing Details</a></li>
+                <li><a class="dropdown-item" href="address.html">Addresses</a></li>
+                <li><a class="dropdown-item" href="shop-grid.html">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-4.html">Shop Grid 4</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-5.html">Shop Grid 5</a></li>
+                <li><a class="dropdown-item" href="search.html">Search</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="account-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="account-orders.html">My Orders</a></li>
+                <li><a class="dropdown-item" href="account-profile.html">My Profile</a></li>
+                <li><a class="dropdown-item" href="account-edit-profile.html">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="account-saved-address.html">Addresses</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="authentication-login.html">Login</a></li>
+                <li><a class="dropdown-item" href="authentication-register.html">Register</a></li>
+                <li><a class="dropdown-item" href="authentication-reset-password.html">Password</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                <li><a class="dropdown-item" href="blog-read.html">Blog Read</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar-nav secondary-menu flex-row">
+        <li class="nav-item">
+          <a class="nav-link dark-mode-icon" href="javascript:;">
+            <div class="mode-icon">
+              <i class="bi bi-moon"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+          <a class="nav-link position-relative" href="javascript:;">
+            <div class="cart-badge">8</div>
+            <i class="bi bi-basket2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account-dashboard.html"><i class="bi bi-person-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+<!--start page content-->
+<div class="page-content">
+
+
+   <!--start breadcrumb-->
+   <div class="py-4 border-bottom">
+    <div class="container-fluid">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0"> 
+          <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+          <li class="breadcrumb-item"><a href="javascript:;">Shop</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Shop With Grid</li>
+        </ol>
+      </nav>
+    </div>
+   </div>
+   <!--end breadcrumb-->
+
+
+   <!--start product grid-->
+   <section class="py-4">
+    <h5 class="mb-0 fw-bold d-none">Product Grid</h5>
+    <div class="container-fluid">
+      <div class="btn btn-dark btn-ecomm d-xl-none position-fixed top-50 start-0 translate-middle-y"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarFilter"><span><i class="bi bi-funnel me-1"></i> Filters</span></div>
+       <div class="row">
+          <div class="col-12 col-xl-2 filter-column">
+              <nav class="navbar navbar-expand-xl flex-wrap p-0">
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarFilter" aria-labelledby="offcanvasNavbarFilterLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title mb-0 fw-bold" id="offcanvasNavbarFilterLabel">Filters</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="filter-sidebar">
+                      <div class="card rounded-0">
+                        <div class="card-header d-none d-xl-block bg-transparent">
+                            <h5 class="mb-0 fw-bold">Filters</h5>
+                        </div>
+                        <div class="card-body">
+                          <h6 class="p-1 fw-bold bg-light">Categories</h6>
+                            <div class="categories">
+                             <div class="categories-wrapper height-1 p-1">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate1">
+                                <label class="form-check-label" for="chekCate1">
+                                  <span>Shirts</span><span class="product-number">(1548)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate2">
+                                <label class="form-check-label" for="chekCate2">
+                                  <span>Jeans</span><span class="product-number">(568)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate3">
+                                <label class="form-check-label" for="chekCate3">
+                                  <span>Kurtas</span><span class="product-number">(784)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate4">
+                                <label class="form-check-label" for="chekCate4">
+                                  <span>Makeup</span><span class="product-number">(1789)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate5">
+                                <label class="form-check-label" for="chekCate5">
+                                  <span>Shoes</span><span class="product-number">(358)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate6">
+                                <label class="form-check-label" for="chekCate6">
+                                  <span>Heels</span><span class="product-number">(572)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate7">
+                                <label class="form-check-label" for="chekCate7">
+                                  <span>Lehenga</span><span class="product-number">(754)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate8">
+                                <label class="form-check-label" for="chekCate8">
+                                  <span>Laptops</span><span class="product-number">(541)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate9">
+                                <label class="form-check-label" for="chekCate9">
+                                  <span>Jewellary</span><span class="product-number">(365)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate10">
+                                <label class="form-check-label" for="chekCate10">
+                                  <span>Sports</span><span class="product-number">(4512)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate11">
+                                <label class="form-check-label" for="chekCate11">
+                                  <span>Music</span><span class="product-number">(647)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate12">
+                                <label class="form-check-label" for="chekCate12">
+                                  <span>Headphones</span><span class="product-number">(9848)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate13">
+                                <label class="form-check-label" for="chekCate13">
+                                  <span>Sunglasses</span><span class="product-number">(751)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekCate14">
+                                <label class="form-check-label" for="chekCate14">
+                                  <span>Belts</span><span class="product-number">(4923)</span>
+                                </label>
+                              </div>
+                             </div>
+                          </div>
+                          <hr>
+                          <div class="brands">
+                            <h6 class="p-1 fw-bold bg-light">Brands</h6>
+                             <div class="brands-wrapper height-1 p-1">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand1">
+                                <label class="form-check-label" for="chekBrand1">
+                                  <span>Samsung</span><span class="product-number">(1548)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand2">
+                                <label class="form-check-label" for="chekBrand2">
+                                  <span>Sony</span><span class="product-number">(478)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand3">
+                                <label class="form-check-label" for="chekBrand3">
+                                  <span>Microsoft</span><span class="product-number">(689)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand4">
+                                <label class="form-check-label" for="chekBrand4">
+                                  <span>Reebok</span><span class="product-number">(987)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand5">
+                                <label class="form-check-label" for="chekBrand5">
+                                  <span>Adidas</span><span class="product-number">(358)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand6">
+                                <label class="form-check-label" for="chekBrand6">
+                                  <span>Puma</span><span class="product-number">(5682)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand7">
+                                <label class="form-check-label" for="chekBrand7">
+                                  <span>Ajio</span><span class="product-number">(5712)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand8">
+                                <label class="form-check-label" for="chekBrand8">
+                                  <span>Motorola</span><span class="product-number">(657)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand9">
+                                <label class="form-check-label" for="chekBrand9">
+                                  <span>amazon</span><span class="product-number">(984)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand10">
+                                <label class="form-check-label" for="chekBrand10">
+                                  <span>Canon</span><span class="product-number">(524)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand11">
+                                <label class="form-check-label" for="chekBrand11">
+                                  <span>Apple</span><span class="product-number">(168)</span>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekBrand12">
+                                <label class="form-check-label" for="chekBrand12">
+                                  <span>Philips</span><span class="product-number">(279)</span>
+                                </label>
+                              </div>
+                             </div>
+                          </div>
+                          <hr>
+                          <div class="Price">
+                            <h6 class="p-1 fw-bold bg-light">Price</h6>
+                             <div class="Price-wrapper p-1">
+                              <div class="input-group">
+                                <input type="text" class="form-control rounded-0" placeholder="$10">
+                                <span class="input-group-text bg-section-1 border-0">-</span>
+                                <input type="text" class="form-control rounded-0" placeholder="$10000">
+                                <button type="button" class="btn btn-outline-dark rounded-0 ms-2"><i class="bi bi-chevron-right"></i></button>
+                              </div>
+                             </div>
+                           </div>
+                           <hr>
+                           <div class="colors">
+                            <h6 class="p-1 fw-bold bg-light">Colors</h6>
+                             <div class="color-wrapper height-1 p-1">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor1">
+                                <label class="form-check-label" for="chekColor1">
+                                  <i class="bi bi-circle-fill me-1 text-danger"></i><span>Red</span><span class="product-number">(845)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor2">
+                                <label class="form-check-label" for="chekColor2">
+                                  <i class="bi bi-circle-fill me-1 text-primary"></i><span>Blue</span><span class="product-number">(257)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor3">
+                                <label class="form-check-label" for="chekColor3">
+                                  <i class="bi bi-circle-fill me-1 text-warning"></i><span>Yellow</span><span class="product-number">(968)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor4">
+                                <label class="form-check-label" for="chekColor4">
+                                  <i class="bi bi-circle-fill me-1 text-success"></i><span>Green</span><span class="product-number">(478)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor5">
+                                <label class="form-check-label" for="chekColor5">
+                                  <i class="bi bi-circle-fill me-1 text-info"></i><span>Skyblue</span><span class="product-number">(256)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor6">
+                                <label class="form-check-label" for="chekColor6">
+                                  <i class="bi bi-circle-fill me-1 text-dark"></i><span>Black</span><span class="product-number">(124)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor7">
+                                <label class="form-check-label" for="chekColor7">
+                                  <i class="bi bi-circle-fill me-1 text-purple"></i><span>Purple</span><span class="product-number">(897)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor8">
+                                <label class="form-check-label" for="chekColor8">
+                                  <i class="bi bi-circle-fill me-1 text-orange"></i><span>Orange</span><span class="product-number">(68)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor9">
+                                <label class="form-check-label" for="chekColor9">
+                                  <i class="bi bi-circle-fill me-1 text-cyane"></i><span>Cyane</span><span class="product-number">(784)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor10">
+                                <label class="form-check-label" for="chekColor10">
+                                  <i class="bi bi-circle-fill me-1 text-brown"></i><span>Brown</span><span class="product-number">(532)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor11">
+                                <label class="form-check-label" for="chekColor11">
+                                  <i class="bi bi-circle-fill me-1 text-ten"></i><span>Ten</span><span class="product-number">(532)</span>
+                                </label>
+                               </div>
+                               <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="chekColor12">
+                                <label class="form-check-label" for="chekColor12">
+                                  <i class="bi bi-circle-fill me-1 text-pink"></i><span>Pink</span><span class="product-number">(452)</span>
+                                </label>
+                               </div>
+                             </div>
+                           </div>
+                           <hr>
+                           <div class="discount">
+                            <h6 class="p-1 fw-bold bg-light">Discount Range</h6>
+                             <div class="discount-wrapper p-1">
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option1" id="chekDisc1">
+                                <label class="form-check-label" for="chekDisc1">
+                                  10% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option2" id="chekDisc2">
+                                <label class="form-check-label" for="chekDisc2">
+                                  20% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option3" id="chekDisc3">
+                                <label class="form-check-label" for="chekDisc3">
+                                  30% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option4" id="chekDisc4">
+                                <label class="form-check-label" for="chekDisc4">
+                                  40% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option5" id="chekDisc5">
+                                <label class="form-check-label" for="chekDisc5">
+                                  50% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option6" id="chekDisc6">
+                                <label class="form-check-label" for="chekDisc6">
+                                  60% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option7" id="chekDisc7">
+                                <label class="form-check-label" for="chekDisc7">
+                                  70% and Above
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" name="exampleRadios" type="radio" value="option8" id="chekDisc8">
+                                <label class="form-check-label" for="chekDisc8">
+                                  80% and Above
+                                </label>
+                              </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </nav>
+          </div>
+          <div class="col-12 col-xl-10">
+            <div class="shop-right-sidebar">
+              <div class="card rounded-0">
+                <div class="card-body p-2">
+                  <div class="d-flex align-items-center justify-content-between bg-light p-2">
+                     <div class="product-count">657 Items Found</div>
+                     <div class="view-type hstack gap-2 d-none d-xl-flex">
+                      <p class="mb-0">Grid</p>
+                      <div>
+                        <a href="shop-grid.html" class="grid-type-3 d-flex gap-1">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </a>
+                      </div>
+                      <div>
+                        <a href="shop-grid-type-5.html" class="grid-type-3 d-flex gap-1 active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </a>
+                      </div>
+                   </div>
+                     <form>
+                      <div class="input-group">
+                        <span class="input-group-text bg-transparent rounded-0 border-0">Sort By</span>
+                        <select class="form-select rounded-0">
+                          <option selected>Whats'New</option>
+                          <option value="1">Popularity</option>
+                          <option value="2">Better Discount</option>
+                          <option value="3">Price : Hight to Low</option>
+                          <option value="4">Price : Low to Hight</option>
+                          <option value="5">Custom Rating</option>
+                        </select>
+                      </div>
+                    </form> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-grid mt-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/01.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/02.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/03.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/04.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/05.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/06.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/07.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/featured-products/08.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/01.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/02.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/05.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/04.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/06.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/07.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/new-arrival/08.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h5 class="mb-0 fw-bold product-short-title">Syndrona</h5>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border shadow-none">
+                      <div class="position-relative overflow-hidden">
+                        <div class="product-options d-flex align-items-center justify-content-center gap-2 mx-auto position-absolute bottom-0 start-0 end-0">
+                          <a href="javascript:;"><i class="bi bi-heart"></i></a>
+                          <a href="javascript:;"><i class="bi bi-basket3"></i></a>
+                          <a href="javascript:;"><i class="bi bi-zoom-in"></i></a>
+                        </div>
+                        <a href="javascript:;">
+                          <img src="assets/images/best-sellar/01.webp" class="card-img-top" alt="...">
+                        </a>
+                      </div>
+                      <div class="card-body border-top">
+                        <h6 class="mb-0 fw-bold product-short-title">Syndrona</h6>
+                        <p class="mb-0 product-short-name">Color Printed Kurta</p>
+                        <div class="product-price d-flex align-items-center gap-2 mt-2">
+                          <div class="h6 fw-bold">$458</div>
+                          <div class="h6 fw-light text-muted text-decoration-line-through">$2089</div>
+                          <div class="h6 fw-bold text-danger">(70% off)</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div><!--end row-->
+            </div>
+
+            </div>
+          </div>
+       </div><!--end row-->
+    </div>
+  </section>
+   <!--start product details-->
+
+
+  
+  
+ </div>
+  <!--end page content-->
+
+
+  <!--start footer-->
+  <section class="footer-section bg-section-2 section-padding">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="footer-widget-6">
+            <img src="assets/images/logo.webp" class="logo-img mb-3" alt="">
+            <h5 class="mb-3 fw-bold">About Us</h5>
+             <p class="mb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+             <a class="link-dark" href="javascript:;">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-7">
+            <h5 class="mb-3 fw-bold">Explore</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fashion</a></li>
+               <li><a href="javascript:;">Women</a></li>
+               <li><a href="javascript:;">Furniture</a></li>
+               <li><a href="javascript:;">Shoes</a></li>
+               <li><a href="javascript:;">Topwear</a></li>
+               <li><a href="javascript:;">Brands</a></li>
+               <li><a href="javascript:;">Kids</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-8">
+            <h5 class="mb-3 fw-bold">Company</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">About Us</a></li>
+               <li><a href="javascript:;">Contact Us</a></li>
+               <li><a href="javascript:;">FAQ</a></li>
+               <li><a href="javascript:;">Privacy</a></li>
+               <li><a href="javascript:;">Terms</a></li>
+               <li><a href="javascript:;">Complaints</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-9">
+            <h5 class="mb-3 fw-bold">Follow Us</h5>
+             <div class="social-link d-flex align-items-center gap-2">
+               <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+               <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+               <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+               <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+               <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+             </div>
+             <div class="mb-4 mt-4">
+              <h5 class="mb-0 fw-bold">Support</h5>
+              <p class="mb-0 text-muted">support@example.com</p>
+             </div>
+             <div class="">
+              <h5 class="mb-0 fw-bold">Toll Free</h5>
+              <p class="mb-0 text-muted">1800- 8xx 2xx</p>
+             </div>
+          </div>
+        </div>
+       </div><!--end row-->
+       <div class="my-5"></div>
+       <div class="row">
+         <div class="col-12">
+           <div class="text-center">
+            <h5 class="fw-bold mb-3">Download Mobile App</h5>
+           </div>
+          <div class="app-icon d-flex flex-column flex-sm-row align-items-center justify-content-center gap-2">
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/play-store.webp" width="160" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/apple-store.webp" width="160" alt="">
+              </a>
+            </div>
+          </div>
+         </div>
+       </div><!--end row-->
+
+    </div>
+  </section>
+  <!--end footer-->
+
+  <footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
+    <p class="mb-0 text-muted">© 2022. www.example.com | All rights reserved.</p>
+  </footer>
+
+
+<!--start cart-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header bg-section-2"> 
+    <h5 class="mb-0 fw-bold" id="offcanvasRightLabel">8 items in the cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <div class="cart-list">
+
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/01.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/02.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/03.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/04.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/05.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/06.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/07.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/08.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/09.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/10.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas-footer p-3 border-top">
+      <div class="d-grid">
+        <button type="button" class="btn btn-lg btn-dark btn-ecomm px-5 py-3">Checkout</button>
+      </div>
+    </div>
+
+</div>
+<!--end cat-->
+
+
+
+<!--Start Back To Top Button-->
+  <a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!--End Back To Top Button-->
+  
+
+   <!-- JavaScript files -->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/plugins/slick/slick.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/loader.js"></script>
+
+
+</body>
+
+</html>

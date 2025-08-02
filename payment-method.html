@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.webp" type="image/webp" />
+
+  <!-- CSS files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/dark-theme.css" rel="stylesheet">
+
+  <title>Shopingo - eCommerce HTML Template</title>
+</head>
+
+<body>
+
+  <!--page loader-->
+  <div class="loader-wrapper">
+   <div class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
+     <div class="spinner-border text-dark" role="status">
+       <span class="visually-hidden">Loading...</span>
+     </div>
+   </div>
+ </div>
+<!--end loader-->
+
+  <!--start top header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand-xl w-100 navbar-dark container gap-3">
+      <a class="navbar-brand d-none d-xl-inline" href="index.html"><img src="assets/images/logo.webp" class="logo-img" alt=""></a>
+      <a class="mobile-menu-btn d-inline d-xl-none" href="javascript:;" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar">
+        <i class="bi bi-list"></i>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar">
+        <div class="offcanvas-header">
+          <div class="offcanvas-logo"><img src="assets/images/logo.webp" class="logo-img" alt="">
+          </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body primary-menu">
+          <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="tv-shows.html" data-bs-toggle="dropdown">
+                Categories
+              </a>
+              <div class="dropdown-menu dropdown-large-menu">
+                <div class="row">
+                  <div class="col-12 col-xl-4">
+                    <h6 class="large-menu-title">Fashion</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="javascript:;">Casual T-Shirts</a>
+                      </li>
+                      <li><a href="javascript:;">Formal Shirts</a>
+                      </li>
+                      <li><a href="javascript:;">Jackets</a>
+                      </li>
+                      <li><a href="javascript:;">Jeans</a>
+                      </li>
+                      <li><a href="javascript:;">Dresses</a>
+                      </li>
+                      <li><a href="javascript:;">Sneakers</a>
+                      </li>
+                      <li><a href="javascript:;">Belts</a>
+                      </li>
+                      <li><a href="javascript:;">Sports Shoes</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-12 col-xl-4">
+                    <h6 class="large-menu-title">Electronics</h6>
+                    <ul class="list-unstyled">
+                      <li><a href="javascript:;">Mobiles</a>
+                      </li>
+                      <li><a href="javascript:;">Laptops</a>
+                      </li>
+                      <li><a href="javascript:;">Macbook</a>
+                      </li>
+                      <li><a href="javascript:;">Televisions</a>
+                      </li>
+                      <li><a href="javascript:;">Lighting</a>
+                      </li>
+                      <li><a href="javascript:;">Smart Watch</a>
+                      </li>
+                      <li><a href="javascript:;">Galaxy Phones</a>
+                      </li>
+                      <li><a href="javascript:;">PC Monitors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end col-3 -->
+                  <div class="col-12 col-xl-4 d-none d-xl-block">
+                    <div class="pramotion-banner1">
+                      <img src="assets/images/menu-img.webp" class="img-fluid" alt=""/>
+                    </div>
+                  </div>
+                  <!-- end col-3 -->
+                </div>
+                <!-- end row -->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                <li><a class="dropdown-item" href="product-details.html">Product Details</a></li>
+                <li><a class="dropdown-item" href="payment-method.html">Payment Method</a></li>
+                <li><a class="dropdown-item" href="billing-details.html">Billing Details</a></li>
+                <li><a class="dropdown-item" href="address.html">Addresses</a></li>
+                <li><a class="dropdown-item" href="shop-grid.html">Shop Grid</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-4.html">Shop Grid 4</a></li>
+                <li><a class="dropdown-item" href="shop-grid-type-5.html">Shop Grid 5</a></li>
+                <li><a class="dropdown-item" href="search.html">Search</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Account
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="account-dashboard.html">Dashboard</a></li>
+                <li><a class="dropdown-item" href="account-orders.html">My Orders</a></li>
+                <li><a class="dropdown-item" href="account-profile.html">My Profile</a></li>
+                <li><a class="dropdown-item" href="account-edit-profile.html">Edit Profile</a></li>
+                <li><a class="dropdown-item" href="account-saved-address.html">Addresses</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="authentication-login.html">Login</a></li>
+                <li><a class="dropdown-item" href="authentication-register.html">Register</a></li>
+                <li><a class="dropdown-item" href="authentication-reset-password.html">Password</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="javascript:;" data-bs-toggle="dropdown">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                <li><a class="dropdown-item" href="blog-read.html">Blog Read</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="navbar-nav secondary-menu flex-row">
+        <li class="nav-item">
+          <a class="nav-link dark-mode-icon" href="javascript:;">
+            <div class="mode-icon">
+              <i class="bi bi-moon"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html"><i class="bi bi-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html"><i class="bi bi-suit-heart"></i></a>
+        </li>
+        <li class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+          <a class="nav-link position-relative" href="javascript:;">
+            <div class="cart-badge">8</div>
+            <i class="bi bi-basket2"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="account-dashboard.html"><i class="bi bi-person-circle"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+<!--start page content-->
+<div class="page-content">
+
+
+   <!--start breadcrumb-->
+   <div class="py-4 border-bottom">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0"> 
+          <li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
+          <li class="breadcrumb-item"><a href="javascript:;">Checkout</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Payment Method</li>
+        </ol>
+      </nav>
+    </div>
+   </div>
+   <!--end breadcrumb-->
+
+
+   <!--start product details-->
+   <section class="section-padding">
+    <div class="container">
+      <div class="d-flex align-items-center px-3 py-2 border mb-4">
+        <div class="text-start">
+          <h4 class="mb-0 h4 fw-bold">Select Payment Method</h4>
+       </div>
+      </div>
+	   <div class="row g-4">
+	     <div class="col-12 col-lg-8 col-xl-8">
+		    <div class="card rounded-0 payment-method">
+          <div class="row g-0">
+             <div class="col-12 col-lg-4 bg-light">
+              <div class="nav flex-column nav-pills">
+                <button class="nav-link rounded-0" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button"><i class="bi bi-cash-stack me-2"></i>Cash On Delivery</button>
+                <button class="nav-link rounded-0" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button"><i class="bi bi-paypal me-2"></i>Paypal</button>
+                <button class="nav-link active rounded-0" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button"><i class="bi bi-credit-card-2-back me-2"></i>Credit/Debit Card</button>
+                <button class="nav-link rounded-0 border-bottom-0" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button"><i class="bi bi-bank2 me-2"></i>Net Banking</button>
+              </div>
+             </div>
+             <div class="col-12 col-lg-8">
+              <div class="tab-content p-3">
+                <div class="tab-pane fade" id="v-pills-home">
+                   <h5 class="mb-3 fw-bold">I would like to pay after product delivery</h5>
+                   <button type="button" class="btn btn-ecomm btn-dark w-100 py-3 px-5">Place Order</button>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile">
+                    <div class="mb-3">
+                      <p>Select your Paypal Account type</p>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Domestic</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">International</label>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <div class="d-block">	<a href="javscript:;" class="btn btn-outline-dark btn-ecomm rounded-0"><i class="bi bi-paypal me-2"></i>Login to my Paypal</a>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <p class="mb-0">Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order.</p>
+                    </div>
+                   <button type="button" class="btn btn-ecomm btn-dark w-100 py-3 px-5">Pay Now</button>
+                </div>
+                <div class="tab-pane fade show active" id="v-pills-messages">
+                    <div class="row g-3">
+                       <div class="col-12">
+                        <div class="form-floating">
+                          <input type="text" class="form-control rounded-0" id="floatingCardNumber" placeholder="Card Number">
+                          <label for="floatingCardNumber">Card Number</label>
+                        </div>
+                       </div>
+                       <div class="col-12">
+                        <div class="form-floating">
+                          <input type="text" class="form-control rounded-0" id="floatingNameonCard" placeholder="Name on Card">
+                          <label for="floatingNameonCard">Name on Card</label>
+                        </div>
+                       </div>
+                       <div class="col-12 col-lg-8">
+                        <div class="form-floating">
+                          <input type="text" class="form-control rounded-0" id="floatingValidity" placeholder="Validity (MM/YY)">
+                          <label for="floatingValidity">Validity (MM/YY)</label>
+                        </div>
+                       </div>
+                       <div class="col-12 col-lg-4">
+                        <div class="form-floating">
+                          <input type="text" class="form-control rounded-0" id="floatingCCV" placeholder="CCV">
+                          <label for="floatingCCV">CCV</label>
+                        </div>
+                       </div>
+                       <div class="col-12">
+                         <button type="button" class="btn btn-ecomm btn-dark w-100 py-3 px-5">Pay Now</button>
+                       </div>
+                    </div><!--end row-->
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings">
+                    <div class="mb-3">
+                      <p>Select your Bank</p>
+                      <select class="form-select form-select-lg rounded-0" aria-label="Default select example">
+                        <option selected="">--Please Select Your Bank--</option>
+                        <option value="1">Bank Name 1</option>
+                        <option value="2">Bank Name 2</option>
+                        <option value="3">Bank Name 3</option>
+                      </select>
+                    </div>
+                    <button type="button" class="btn btn-ecomm btn-dark w-100 py-3 px-5 mb-3">Pay Now</button>
+                    <div class="">
+                      <p class="mb-0">Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div><!--end row-->
+			</div> 
+
+		 </div>
+		 <div class="col-12 col-lg-4 col-xl-4">
+		     <div class="card rounded-0 mb-3">
+           <div class="card-body">
+             <h5 class="fw-bold mb-4">Order Summary</h5>
+             <div class="hstack align-items-center justify-content-between">
+               <p class="mb-0">Bag Total</p>
+               <p class="mb-0">$599.00</p>
+             </div>
+             <hr>
+             <div class="hstack align-items-center justify-content-between">
+              <p class="mb-0">Bag discount</p>
+              <p class="mb-0 text-success">- $178.00</p>
+            </div>
+            <hr>
+            <div class="hstack align-items-center justify-content-between">
+              <p class="mb-0">Delivery</p>
+              <p class="mb-0">$29.00</p>
+            </div>
+            <hr>
+            <div class="hstack align-items-center justify-content-between fw-bold text-content">
+              <p class="mb-0">Total Amount</p>
+              <p class="mb-0">$393.00</p>
+            </div>
+           </div>
+         </div>
+
+		 </div>
+	 </div><!--end row-->
+       
+    </div>
+  </section>
+   <!--start product details-->
+
+
+  
+  
+ </div>
+  <!--end page content-->
+
+
+  <!--start footer-->
+  <section class="footer-section bg-section-2 section-padding">
+    <div class="container">
+       <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="footer-widget-6">
+            <img src="assets/images/logo.webp" class="logo-img mb-3" alt="">
+            <h5 class="mb-3 fw-bold">About Us</h5>
+             <p class="mb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+             <a class="link-dark" href="javascript:;">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-7">
+            <h5 class="mb-3 fw-bold">Explore</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">Fashion</a></li>
+               <li><a href="javascript:;">Women</a></li>
+               <li><a href="javascript:;">Furniture</a></li>
+               <li><a href="javascript:;">Shoes</a></li>
+               <li><a href="javascript:;">Topwear</a></li>
+               <li><a href="javascript:;">Brands</a></li>
+               <li><a href="javascript:;">Kids</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-8">
+            <h5 class="mb-3 fw-bold">Company</h5>
+             <ul class="widget-link list-unstyled">
+               <li><a href="javascript:;">About Us</a></li>
+               <li><a href="javascript:;">Contact Us</a></li>
+               <li><a href="javascript:;">FAQ</a></li>
+               <li><a href="javascript:;">Privacy</a></li>
+               <li><a href="javascript:;">Terms</a></li>
+               <li><a href="javascript:;">Complaints</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="footer-widget-9">
+            <h5 class="mb-3 fw-bold">Follow Us</h5>
+             <div class="social-link d-flex align-items-center gap-2">
+               <a href="javascript:;"><i class="bi bi-facebook"></i></a>
+               <a href="javascript:;"><i class="bi bi-twitter"></i></a>
+               <a href="javascript:;"><i class="bi bi-linkedin"></i></a>
+               <a href="javascript:;"><i class="bi bi-youtube"></i></a>
+               <a href="javascript:;"><i class="bi bi-instagram"></i></a>
+             </div>
+             <div class="mb-4 mt-4">
+              <h5 class="mb-0 fw-bold">Support</h5>
+              <p class="mb-0 text-muted">support@example.com</p>
+             </div>
+             <div class="">
+              <h5 class="mb-0 fw-bold">Toll Free</h5>
+              <p class="mb-0 text-muted">1800- 8xx 2xx</p>
+             </div>
+          </div>
+        </div>
+       </div><!--end row-->
+       <div class="my-5"></div>
+       <div class="row">
+         <div class="col-12">
+           <div class="text-center">
+            <h5 class="fw-bold mb-3">Download Mobile App</h5>
+           </div>
+          <div class="app-icon d-flex flex-column flex-sm-row align-items-center justify-content-center gap-2">
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/play-store.webp" width="160" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="javascript:;">
+                <img src="assets/images/apple-store.webp" width="160" alt="">
+              </a>
+            </div>
+          </div>
+         </div>
+       </div><!--end row-->
+
+    </div>
+  </section>
+  <!--end footer-->
+
+  <footer class="footer-strip text-center py-3 bg-section-2 border-top positon-absolute bottom-0">
+    <p class="mb-0 text-muted">© 2022. www.example.com | All rights reserved.</p>
+  </footer>
+
+
+<!--start cart-->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header bg-section-2"> 
+    <h5 class="mb-0 fw-bold" id="offcanvasRightLabel">8 items in the cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+      <div class="cart-list">
+
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/01.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/02.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/03.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/04.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/05.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/06.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/07.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/08.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/09.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+        <hr>
+        <div class="d-flex align-items-center gap-3">
+          <div class="bottom-product-img">
+            <a href="product-details.html">
+              <img src="assets/images/new-arrival/10.webp" width="60" alt="">
+            </a>
+          </div>
+          <div class="">
+            <h6 class="mb-0 fw-light mb-1">Product Name</h6>
+            <p class="mb-0"><strong>1 X $59.00</strong>
+            </p>
+          </div>
+          <div class="ms-auto fs-5">
+            <a href="javascript:" class="link-dark"><i class="bi bi-trash"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas-footer p-3 border-top">
+      <div class="d-grid">
+        <button type="button" class="btn btn-lg btn-dark btn-ecomm px-5 py-3">Checkout</button>
+      </div>
+    </div>
+
+</div>
+<!--end cat-->
+
+
+<!--Start Back To Top Button-->
+  <a href="javaScript:;" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!--End Back To Top Button-->
+  
+
+   <!-- JavaScript files -->
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/plugins/slick/slick.min.js"></script>
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/loader.js"></script>
+
+
+</body>
+
+</html>
